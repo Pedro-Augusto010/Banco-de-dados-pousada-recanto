@@ -40,7 +40,11 @@ O repositório está organizado de forma modular, permitindo uma execução sequ
 
 Arquivos
 ├── 01_estrutura.sql      # Criação da base de dados, tabelas, restrições e chaves (DDL)
+
 ├── 02_carga.sql          # Inserção da massa de dados inicial de teste (DML)
+
 ├── 03_manipulacao.sql    # Operações de inserção, atualização e eliminação orientadas (DML)
+
 ├── 04_consultas.sql      # Conjunto de 10 consultas analíticas e de negócio (DQL)
+
 ├── 05_view.sql           # Construção e teste da visão (View)
