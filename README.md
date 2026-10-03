@@ -39,6 +39,7 @@ O projeto foi desenvolvido no dialeto **MySQL**. Para testar em sua máquina:
 O repositório está organizado de forma modular, permitindo uma execução sequencial e limpa de cada fase do projeto:
 
 Arquivos
+
 ├── 01_estrutura.sql      # Criação da base de dados, tabelas, restrições e chaves (DDL)
 
 ├── 02_carga.sql          # Inserção da massa de dados inicial de teste (DML)
