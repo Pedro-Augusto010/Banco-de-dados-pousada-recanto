@@ -34,3 +34,13 @@ O projeto foi desenvolvido no dialeto **MySQL**. Para testar em sua máquina:
 2. Abra o seu SGBD preferido (MySQL Workbench, DBeaver, DataGrip, etc.).
 3. Carregue o arquivo `trabalho_final.sql` (ou execute os arquivos particionados na ordem: `Estrutura` -> `Carga` -> `Manipulação` -> `Consultas` -> `View`).
 4. Execute o script. O código já contempla a criação do *schema* (`CREATE DATABASE`) e a inserção completa de uma massa de dados para testes.
+
+## 📂 Estrutura do Repositório
+O repositório está organizado de forma modular, permitindo uma execução sequencial e limpa de cada fase do projeto:
+
+Arquivos
+├── 01_estrutura.sql      # Criação da base de dados, tabelas, restrições e chaves (DDL)
+├── 02_carga.sql          # Inserção da massa de dados inicial de teste (DML)
+├── 03_manipulacao.sql    # Operações de inserção, atualização e eliminação orientadas (DML)
+├── 04_consultas.sql      # Conjunto de 10 consultas analíticas e de negócio (DQL)
+├── 05_view.sql           # Construção e teste da visão (View)
